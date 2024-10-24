@@ -1,0 +1,40 @@
+{
+  "name": "oppimistehtava2-askelmittaridataa-edasa006-xamk",
+  "version": "1.0.0",
+  "description": "Tämä on repository Sovellusohjelmointi 3 -opintojakson oppimistehtävien palautukseen. Kaikki palautukset oppimistehtäviin tulee sijoittaa sitä vastaavaan GitHub-repositoryyn. Jokaiselle oppimistehtävälle luodaan uusi repository tehtävänannon yhteydessä olevasta linkistä.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsx watch index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xamk-sovellusohjelmointi-3/oppimistehtava2-askelmittaridataa-edasa006-xamk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xamk-sovellusohjelmointi-3/oppimistehtava2-askelmittaridataa-edasa006-xamk/issues"
+  },
+  "homepage": "https://github.com/xamk-sovellusohjelmointi-3/oppimistehtava2-askelmittaridataa-edasa006-xamk#readme",
+  "devDependencies": {
+    "@prisma/studio": "^0.502.0",
+    "@types/ejs": "^3.1.5",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.7.0",
+    "nodemon": "^3.1.7",
+    "prisma": "^5.20.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@fontsource/material-icons": "^5.1.0",
+    "@fontsource/roboto": "^5.1.0",
+    "@prisma/client": "^5.20.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}

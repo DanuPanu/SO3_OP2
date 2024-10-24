@@ -1,0 +1,14 @@
+<%- include("includes/header")%>
+
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        
+        <div class="mdl-textfield">
+            <input class="mdl-textfield__input" type="file" id="tiedosto" name="tiedosto">
+            <label class="mdl-textfield__label" for="tiedosto">Tiedosto</label>
+        </div>
+
+        <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Lisää tiedot</button>
+
+    </form>
+
+<%- include("includes/footer")%>
